@@ -40,14 +40,14 @@ exports.TJoin.metadata = {
             key: 'left-hand',
             momentum: 0,
             x: '4%',
-            y: '30%',
+            y: '29%',
             rotation: 180
         },
         {
             key: 'right-hand',
             momentum: 0,
             x: '70%',
-            y: '29%'
+            y: '28%'
         },
         {
             key: 'bottom',
