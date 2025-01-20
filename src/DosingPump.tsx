@@ -50,15 +50,15 @@ DosingPump.metadata = {
     {
       key: 'outlet',
       momentum: 1,
-      x: '80%',
-      y: '70%',
+      x: '95%',
+      y: '80%',
       rotation: 180
     },
     {
       key: 'inlet',
       momentum: -1,
-      x: '-10%',
-      y: '70%'
+      x: '0%',
+      y: '79%'
     }
   ]
 }

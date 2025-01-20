@@ -166,14 +166,14 @@ UV.metadata = {
     {
       key: 'inlet',
       momentum: 1,
-      x: '5%',
-      y: '5%',
+      x: '9%',
+      y: '10%',
     },
     {
       key: 'outlet',
       momentum: -1,
-      x: '95%',
-      y: '55%'
+      x: '99%',
+      y: '59%'
     }
   ]
 }

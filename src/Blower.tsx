@@ -61,8 +61,8 @@ Blower.metadata = {
       key: 'outlet',
       type: 'source',
       momentum: 1,
-      x: '80%',
-      y: '18%',
+      x: '99%',
+      y: '29%',
       rotation: 180
     },
     // {

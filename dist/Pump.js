@@ -61,8 +61,8 @@ exports.Pump.metadata = {
         {
             key: 'outlet',
             momentum: 1,
-            x: '85%',
-            y: '20%',
+            x: '97%',
+            y: '34%',
             rotation: 180
         },
         {
