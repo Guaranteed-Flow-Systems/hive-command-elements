@@ -181,15 +181,15 @@ Multimedia.metadata = {
     {
       key: 'outlet',
       momentum: 1,
-      x: '83%',
-      y: '2%',
+      x: '92%',
+      y: '5%',
       rotation: 180
     },
     {
       key: 'inlet',
       momentum: -1,
       x: '5%',
-      y: '2%'
+      y: '5%'
     }
   ]
 }

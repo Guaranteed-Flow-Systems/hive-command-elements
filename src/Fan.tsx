@@ -33,15 +33,15 @@ Fan.metadata = {
     {
       key: 'outlet',
       momentum: 1,
-      x: '85%',
-      y: '20%',
+      x: '98%',
+      y: '33%',
       rotation: 180
     },
     {
       key: 'inlet',
       momentum: -1,
-      x: '-5%',
-      y: '58%'
+      x: '2%',
+      y: '75%'
     }
   ]
 }
