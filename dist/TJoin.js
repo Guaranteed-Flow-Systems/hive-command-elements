@@ -52,7 +52,7 @@ exports.TJoin.metadata = {
         {
             key: 'bottom',
             momentum: 0,
-            x: '36%',
+            x: '37%',
             y: '75%'
         }
     ]
