@@ -44,7 +44,6 @@ export const Blower = (props: {
       // filter: props.options?.fault == true ? 'drop-shadow(0px 0px 5px red)' : undefined // props.options?.on == true ? 'drop-shadow(0px 0px 5px green)' : undefined
     }}
     onClick={() => {
-      console.log("CLICK", {onClick: props.options?.onClick})
       try{
       props.options?.onClick?.()
       }catch(e){

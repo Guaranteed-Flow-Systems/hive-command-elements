@@ -16,7 +16,6 @@ const Grid = (props) => {
         if (props.editing) {
             return (react_1.default.createElement("div", { onDrop: (evt) => {
                     let data = JSON.parse(evt.dataTransfer.getData('infinite-canvas'));
-                    console.log("Data from grid cell", { row, col });
                     // let pos = getRelativeCanvasPos(canvasRef, {offset: _offset, zoom: _zoom}, {x: e.clientX, y: e.clientY})
                     // onNodeCreate(pos, data)
                     // isDragging.current.dragging = false

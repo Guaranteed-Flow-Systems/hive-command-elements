@@ -50,10 +50,9 @@ const Blower = (props) => {
             filter: ((_c = props.options) === null || _c === void 0 ? void 0 : _c.fault) ? `url(#blower-fault)` : undefined,
             // filter: props.options?.fault == true ? 'drop-shadow(0px 0px 5px red)' : undefined // props.options?.on == true ? 'drop-shadow(0px 0px 5px green)' : undefined
         }, onClick: () => {
-            var _a, _b, _c;
-            console.log("CLICK", { onClick: (_a = props.options) === null || _a === void 0 ? void 0 : _a.onClick });
+            var _a, _b;
             try {
-                (_c = (_b = props.options) === null || _b === void 0 ? void 0 : _b.onClick) === null || _c === void 0 ? void 0 : _c.call(_b);
+                (_b = (_a = props.options) === null || _a === void 0 ? void 0 : _a.onClick) === null || _b === void 0 ? void 0 : _b.call(_a);
             }
             catch (e) {
                 console.error(e);
