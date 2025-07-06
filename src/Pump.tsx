@@ -61,7 +61,7 @@ Pump.metadata = {
     {
       key: 'inlet',
       momentum: -1,
-      x: '-5%',
+      x: '0%',
       y: '55%'
     }
   ]
