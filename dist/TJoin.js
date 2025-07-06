@@ -25,7 +25,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.TJoin = void 0;
 const React = __importStar(require("react"));
-const TJoin = (props) => (React.createElement("svg", { id: "TJoin_svg__Layer_1", xmlns: "http://www.w3.org/2000/svg", x: 0, y: 0, viewBox: "0 0 283.5 283.5", xmlSpace: "preserve" },
+const TJoin = (props) => (React.createElement("svg", { id: "TJoin_svg__Layer_1", xmlns: "http://www.w3.org/2000/svg", x: 0, y: 0, viewBox: "0 0 283.5 283.5", xmlSpace: "preserve", preserveAspectRatio: "none" },
     React.createElement("style", null, ".TJoin_svg__st0{opacity:.8;fill:none;stroke:#626363;stroke-width:13;stroke-miterlimit:10}"),
     React.createElement("path", { className: "TJoin_svg__st0", d: "M277.5 56.9H5.7M170 221.2V113.5h107.5M5.7 113.5h107.8v107.7" }),
     React.createElement("path", { style: {
@@ -39,20 +39,20 @@ exports.TJoin.metadata = {
         {
             key: 'left-hand',
             momentum: 0,
-            x: '4%',
+            x: '15%',
             y: '30%',
             rotation: 180
         },
         {
             key: 'right-hand',
             momentum: 0,
-            x: '70%',
+            x: '85%',
             y: '30%'
         },
         {
             key: 'bottom',
             momentum: 0,
-            x: '37%',
+            x: '50%',
             y: '75%'
         }
     ]

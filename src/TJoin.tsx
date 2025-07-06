@@ -9,6 +9,7 @@ export const TJoin = (props: SVGProps<SVGSVGElement>) => (
     y={0}
     viewBox="0 0 283.5 283.5"
     xmlSpace="preserve"
+    preserveAspectRatio="none"
   >
     <style>
       {
@@ -35,20 +36,20 @@ TJoin.metadata = {
     {
       key: 'left-hand',
       momentum: 0,
-      x: '4%',
+      x: '15%',
       y: '30%',
       rotation: 180
     },
     {
       key: 'right-hand',
       momentum: 0,
-      x: '70%',
+      x: '85%',
       y: '30%'
     },
     {
       key: 'bottom',
       momentum: 0,
-      x: '37%',
+      x: '50%',
       y: '75%'
     }
   ]
