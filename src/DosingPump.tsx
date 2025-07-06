@@ -11,13 +11,7 @@ export const DosingPump = (props: {options: any}) => (
     viewBox="0 0 283.46 283.46"
     xmlSpace="preserve"
   >
-    <style>{`
-    .dose_pump_svg__st0{
-      fill: #4d4d4e;
-    }
-    .dose_pump_svg{
-      fill: ${props.options?.fill || (!props.options?.stroke) ? "#4d4d4e" : 'none'};
-    }`}</style>
+
     <path
       className="dose_pump_svg__st0"
       d="M113.02 174.32c4.39 0 8.25-3.83 8.25-8.25v-61.72c0-4.39-3.86-8.25-8.25-8.25s-8.25 3.83-8.25 8.25v61.72c0 4.38 3.86 8.25 8.25 8.25z"
@@ -63,3 +57,13 @@ DosingPump.metadata = {
   ]
 }
 
+
+/*
+    <style>{`
+    .dose_pump_svg__st0{
+      fill: #4d4d4e;
+    }
+    .dose_pump_svg{
+      fill: ${props.options?.fill || (!props.options?.stroke) ? "#4d4d4e" : 'none'};
+    }`}</style>
+*/
