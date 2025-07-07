@@ -17,7 +17,6 @@ export const Dropdown : React.FC<DropdownProps> = (props) => {
 
     return (
         <FormControl
-            className='nodrag nopan'
             fullWidth size="small">
             <InputLabel id={id}>{props.options?.label}</InputLabel>
             <Select
