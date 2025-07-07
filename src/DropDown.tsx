@@ -21,7 +21,7 @@ export const Dropdown : React.FC<DropdownProps> = (props) => {
             <Select
                 labelId={id}
                 label={props.options?.label}
-                value={props.options?.value || null}
+                value={props.options?.value || ''}
                 onChange={props.options?.onChange && ((e) => props.options?.onChange(e.target.value as string))}>
                     {(props.options?.options || []).map((option, ix) => (
                         <MenuItem key={ix} value={option}>{option}</MenuItem>
