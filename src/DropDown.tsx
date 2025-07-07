@@ -1,5 +1,5 @@
 import React from 'react';
-import { Select, FormControl, InputLabel, MenuItem  } from '@mui/material'
+import { Select, FormControl, InputLabel, MenuItem, Autocomplete, TextField  } from '@mui/material'
 
 export interface DropdownProps {
     options?: {
@@ -11,19 +11,14 @@ export interface DropdownProps {
 }
 
 export const Dropdown : React.FC<DropdownProps> = (props) => {
-
+    console.log("Options", props.options)
     return (
-        <FormControl fullWidth size="small">
-            <InputLabel>{props.options?.label}</InputLabel>
-            <Select
-                label={props.options?.label}
-                value={props.options?.value || ''}
-                onChange={props.options?.onChange && ((e) => props.options?.onChange(e.target.value as string))}>
-                    {props.options?.options?.map((option) => (
-                        <MenuItem value={option}>{option}</MenuItem>
-                    ))}
-            </Select>
-        </FormControl>
+        <Autocomplete
+            options={props.options?.options || []}
+            value={props.options?.value}
+            onChange={props.options?.onChange && ((e, newValue) => props.options?.onChange(newValue as any))}
+            renderInput={(params) => <TextField {...params} size="small" label={props.options?.label} />}
+        />
     )
 }
 
