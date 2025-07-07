@@ -32,7 +32,7 @@ const Dropdown = (props) => {
     const id = (0, react_1.useMemo)(() => (Math.random() * 100) + "", []);
     return (react_1.default.createElement(material_1.FormControl, { fullWidth: true, size: "small" },
         react_1.default.createElement(material_1.InputLabel, { id: id }, (_a = props.options) === null || _a === void 0 ? void 0 : _a.label),
-        react_1.default.createElement(material_1.Select, { labelId: id, label: (_b = props.options) === null || _b === void 0 ? void 0 : _b.label, value: ((_c = props.options) === null || _c === void 0 ? void 0 : _c.value) || '', onChange: ((_d = props.options) === null || _d === void 0 ? void 0 : _d.onChange) && ((e) => { var _a; return (_a = props.options) === null || _a === void 0 ? void 0 : _a.onChange(e.target.value); }) }, (((_e = props.options) === null || _e === void 0 ? void 0 : _e.options) || []).map((option, ix) => (react_1.default.createElement(material_1.MenuItem, { key: ix, value: option }, option))))));
+        react_1.default.createElement(material_1.Select, { open: undefined, labelId: id, label: (_b = props.options) === null || _b === void 0 ? void 0 : _b.label, value: ((_c = props.options) === null || _c === void 0 ? void 0 : _c.value) || '', onChange: ((_d = props.options) === null || _d === void 0 ? void 0 : _d.onChange) && ((e) => { var _a; return (_a = props.options) === null || _a === void 0 ? void 0 : _a.onChange(e.target.value); }) }, (((_e = props.options) === null || _e === void 0 ? void 0 : _e.options) || []).map((option, ix) => (react_1.default.createElement(material_1.MenuItem, { key: ix, value: option }, option))))));
 };
 exports.Dropdown = Dropdown;
 exports.Dropdown.metadata = {
