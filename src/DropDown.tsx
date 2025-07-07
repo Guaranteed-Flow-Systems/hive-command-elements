@@ -12,7 +12,6 @@ export interface DropdownProps {
 
 export const Dropdown : React.FC<DropdownProps> = (props) => {
 
-    console.log("Dropdown", props)
     const id = useMemo(() => (Math.random() * 100) + "", [])
 
     return (
