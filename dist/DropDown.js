@@ -28,7 +28,7 @@ const react_1 = __importStar(require("react"));
 const material_1 = require("@mui/material");
 const Dropdown = (props) => {
     var _a, _b, _c, _d, _e;
-    console.log("Dropdown", props.options);
+    console.log("Dropdown", props);
     const id = (0, react_1.useMemo)(() => (Math.random() * 100) + "", []);
     return (react_1.default.createElement(material_1.FormControl, { fullWidth: true, size: "small" },
         react_1.default.createElement(material_1.InputLabel, { id: id }, (_a = props.options) === null || _a === void 0 ? void 0 : _a.label),
