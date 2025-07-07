@@ -16,10 +16,12 @@ export const Dropdown : React.FC<DropdownProps> = (props) => {
     const id = useMemo(() => (Math.random() * 100) + "", [])
 
     return (
-        <FormControl fullWidth size="small">
+        <FormControl
+            className='nodrag nopan'
+            fullWidth size="small">
             <InputLabel id={id}>{props.options?.label}</InputLabel>
             <Select
-                className='nodrag'
+
                 open={undefined}
                 labelId={id}
                 label={props.options?.label}
